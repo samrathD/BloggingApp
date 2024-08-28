@@ -18,8 +18,8 @@ const blogSchema = new Schema({
         ref: "user",
     }
     },
-    {timestamps: ture}
+    {timestamps: true}
 );
 
-const blog = model('blog',blogSchema);
-module.exports = blog
+const Blog = model('blog',blogSchema);
+module.exports = Blog
